@@ -12,7 +12,6 @@ from __future__ import annotations
 
 from pathlib import Path
 
-
 def write_final_grade(path: str | Path, name: str, average: float) -> None:
     """
     Añade una línea al fichero CSV en `path` con este formato:
@@ -31,4 +30,4 @@ def write_final_grade(path: str | Path, name: str, average: float) -> None:
     Nota:
     - No hace falta escribir cabecera para este ejercicio.
     """
-    raise NotImplementedError("Implementa write_final_grade(path, name, average)")
+
